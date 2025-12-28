@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1766922355 source:g:\mtp\11lab\binary.cpp
+	<iostream>
+
+1766922419 source:g:\mtp\11lab\bubble.cpp
+	<iostream>
+
+1766922484 source:g:\mtp\11lab\counting.cpp
+	<iostream>
+
+1766922683 source:g:\mtp\11lab\quadroselect.cpp
+	<iostream>
+
+1766922720 source:g:\mtp\11lab\quick.cpp
+
+1766924104 source:g:\mtp\11lab\main.cpp
+	<iostream>
+	"sorts.h"
+
+1766924170 g:\mtp\11lab\sorts.h
+
+1766923612 source:g:\mtp\11lab\centered_insertion.cpp
+	<iostream>
+
