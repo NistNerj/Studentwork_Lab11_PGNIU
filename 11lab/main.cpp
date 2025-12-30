@@ -5,12 +5,12 @@ using namespace std;
 int main() {
     setlocale(LC_ALL, "ru");
     int n;
-    cout << "Ââåäèòå ðàçìåð ìàññèâà: ";
+    cout << "Введите размер массива: ";
     cin >> n;
 
     int* a = new int[n];
 
-    cout << "Ââåäèòå ýëåìåíòû ìàññèâà:";
+    cout << "Введите элементы массива:";
     for (int i = 0; i < n; i++) {
         cin >> a[i];
     }
@@ -18,20 +18,20 @@ int main() {
     int selected, direction;
 
     cout << endl;
-    cout << "ÌÅÍÞ:" << endl;
-    cout << "1. Áèíàðíûå âñòàâêè" << endl;
-    cout << "2. Ïðîñòîé ïîäñ÷åò" << endl;;
-    cout << "3. Ïóçûðüêîâàÿ ñîðòèðîâêà" << endl;
-    cout << "4. Öåíòðèðîâàííûå âñòàâêè" << endl;
-    cout << "5. Êâàäðàòè÷íûé âûáîð" << endl;;
-    cout << "6. Áûñòðàÿ ñîðòèðîâêà" << endl;
-    cout << "0. Îòìåíà" << endl;
-    cout << "Âûáåðèòå òèï: ";
+    cout << "МЕНЮ:" << endl;
+    cout << "1. Бинарные вставки" << endl;
+    cout << "2. Простой подсчет" << endl;;
+    cout << "3. Пузырьковая сортировка" << endl;
+    cout << "4. Центрированные вставки" << endl;
+    cout << "5. Квадратичный выбор" << endl;;
+    cout << "6. Быстрая сортировка" << endl;
+    cout << "0. Отмена" << endl;
+    cout << "Выберите тип: ";
     cin >> selected;
 
-    cout << "1. Ïî âîçðàñòàíèþ" << endl;
-    cout << "2. Ïî óáûâàíèþ" << endl;
-    cout << "Âûáåðèòå ïîðÿäîê: ";
+    cout << "1. По возрастанию" << endl;
+    cout << "2. По убыванию" << endl;
+    cout << "Выберите порядок: ";
     cin >> direction;
 
     if (selected >= 0 && selected <= 6) {
@@ -72,8 +72,9 @@ int main() {
         cout << endl;
     }
 
-    else cout << "Error: value(s) out of range!" << endl;
+    else cout << "Error: value(s) out of range. Pls try again!" << endl;
     
     return 0;
 }
+
 
